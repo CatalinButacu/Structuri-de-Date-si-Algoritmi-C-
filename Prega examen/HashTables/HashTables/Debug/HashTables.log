@@ -1,0 +1,11 @@
+﻿Build started 08.12.2015 00:15:10.
+     1>Project "C:\Users\Cosmin Crihan\Desktop\SD\programe\HashTables\HashTables\HashTables.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\cosmin crihan\desktop\sd\programe\hashtables\hashtables\main.cpp(3): fatal error C1083: Cannot open include file: 'HashTables.h': No such file or directory
+     1>Done Building Project "C:\Users\Cosmin Crihan\Desktop\SD\programe\HashTables\HashTables\HashTables.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.98

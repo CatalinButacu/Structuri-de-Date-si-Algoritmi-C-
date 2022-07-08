@@ -1,0 +1,9 @@
+Am considerat o tabela de dispersie cu 29 de "galeti", in care am inserat date aleatoare si coliziuni de codurii ASCII.
+Am observat urmatoarele:
+-in cazul hash-ului simplu, coliziunile intervenite sunt puse in aceeasi lista liniara, avand aceleasi sume de coduri ASCII. Dispersia elementelor nu respecta o anumita
+regula / un anumit model
+-in cazul Bernstein, coliziunile sunt rezolvate in alt mod. Se pare ca elementele tind sa se aglomereze spre extremitati, nu mai exista coliziuni de coduri ASCII, dispersia
+avand un model aproximativ al unui clopot al lui Gauss invers (bombat spre extremitati). M-am interesat despre aceasta functie pe internet, si am aflat ca este cea mai eficienta functie hash inventata vreodata.
+-in cazul Knuth, se pare ca dispersia tinde spre o sinusoida, cu amplitudinea apropiata de "mijloc", mai atenuata spre extremitati
+-in cazul SDBM, aceasta functie hash pare sa functioneze foarte bine pentru o dispersie oarecum "uniforma" a datelor din tabel, rezolvand coliziunile printr-o distributie
+normala, fara aglomerari de date in anumite puncte.
